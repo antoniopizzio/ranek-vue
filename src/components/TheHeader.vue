@@ -1,10 +1,10 @@
 <template>
   <header>
     <nav>
-      <router-link :to="{ name: home }" class="logo">
+      <router-link :to="{ name: 'home' }" class="logo">
         <img src="@/assets/ranek.svg" alt="Ranek" />
       </router-link>
-      <router-link :to="{ name: login }" class="btn">
+      <router-link :to="{ name: 'login' }" class="btn">
         Vender/Login
       </router-link>
     </nav>
